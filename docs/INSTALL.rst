@@ -212,7 +212,7 @@ A brief description of them follows:
 ``-c`` path to the configuration directory
     If not specified, AppDaemon will look for a file named ``appdaemon.yaml`` under the following default locations:
 
-    - ``~/.homeassistant/``
+    - ``~/addon_configs/``
     - ``/etc/appdaemon``
 
     If no file is found in either location, AppDaemon will raise an exception. In addition, AppDaemon expects to find a dir named ``apps`` immediately subordinate to the config directory.
